@@ -2,14 +2,8 @@
 exports.__esModule = true;
 exports.Rocket = void 0;
 var Rocket = /** @class */ (function () {
-    //const foo: string[] = [];
     function Rocket(itemName, totalCapacity) {
-        //const cargoItems: [number, string]=[];
-        //const astronauts: [number, string]=[];
-        //var cargoItems: Cargo[] = [];
-        //let astronauts: [number, string];
         this.astronauts = [];
-        //let astronauts = new Astronaut();
         this.cargoItems = [];
         this.name = itemName;
         this.totalCapacityKg = totalCapacity;
